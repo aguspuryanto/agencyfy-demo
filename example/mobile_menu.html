@@ -1,0 +1,74 @@
+<html></html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .sidebar {
+            width: 300px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-right: 1px solid #e0e0e0;
+            height: 100vh;
+        }
+        .sidebar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff007f;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .sidebar .logo i {
+            margin-right: 10px;
+        }
+        .sidebar .close-btn {
+            margin-left: auto;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .sidebar .nav-link {
+            font-size: 16px;
+            color: #000000;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+        }
+        .sidebar .nav-link.active {
+            color: #ff007f;
+        }
+        .sidebar .nav-link:hover {
+            text-decoration: none;
+        }
+        .sidebar .btn-quote {
+            background-color: #ff007f;
+            color: #ffffff;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="d-flex align-items-center logo">
+            <i class="fas fa-circle"></i> Agencify
+            <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="#" class="nav-link active">Accueil</a>
+        <a href="#" class="nav-link">Notre expertise <i class="fas fa-chevron-down"></i></a>
+        <a href="#" class="nav-link">Nos services <i class="fas fa-chevron-down"></i></a>
+        <a href="#" class="nav-link">A propos</a>
+        <a href="#" class="nav-link">Contact</a>
+        <button class="btn btn-quote">Demander un devis</button>
+    </div>
+</body>
+</html>
